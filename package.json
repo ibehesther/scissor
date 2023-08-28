@@ -20,11 +20,15 @@
     "next": "13.4.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sharp": "^0.32.5",
     "short-uuid": "^4.2.2",
     "typescript": "5.1.6",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "@types/valid-url": "^1.0.4"
+  },
+  "engines": {
+    "node": "16.20.0"
   }
 }

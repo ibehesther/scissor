@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Scissor",
+	description: "Your Ultimate URL Shortening Solution",
 };
 
 export default function RootLayout({
@@ -24,7 +25,7 @@ export default function RootLayout({
 				<main className={inter.className}>
 					<Header />
 					{children}
-          <Footer/>
+					<Footer />
 				</main>
 			</body>
 		</html>

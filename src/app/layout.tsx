@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
+			<head>
+				<link rel="icon" type="image/png" sizes="16x16" href="/scissor.png" />
+			</head>
 			<body className={inter.className}>
 				<main className={inter.className}>
 					<Header />

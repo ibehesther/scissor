@@ -10,6 +10,12 @@
 .navbar a {
 	font-size: 1.5rem;
 	font-weight: 900;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.navbar h1{
+	font-size: 1.5rem;
 }
 .main {
 	display: flex;
@@ -237,6 +243,13 @@
 		padding: 4rem;
 	}
 
+	.navbar img{
+		width: 30px;
+		height: 30px;
+	}
+	.navbar h1{
+		font-size: 1.2rem;
+	}
 	.main {
 		display: flex;
 		flex-direction: column;

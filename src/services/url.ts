@@ -6,6 +6,7 @@ import { generateUniqueId } from "@utils/generateUniqueCode";
 import { FormFields } from "@app/interfaces/Form";
 
 const BASE_URL = process.env.BASE_URL;
+
 export const createShortUrl = async (request: Request) => {
 	try {
 		await connectToDB();

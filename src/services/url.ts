@@ -85,7 +85,7 @@ export const getShortUrl = async (request: Request) => {
 		}
 		return {
 			original_url: url.original_url,
-			statusCode: 200,
+			statusCode: 301,
 		};
 	} else {
 		return {

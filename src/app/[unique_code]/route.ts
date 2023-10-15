@@ -7,6 +7,6 @@ export const GET = async(request: Request) => {
 	if(response.error){
 		return NextResponse.json(response, { status: response.statusCode });
 	}
-	return NextResponse.redirect(new URL(response.original_url))
+	return NextResponse.redirect(new URL(response.original_url), response.statusCode)
 	
 };
